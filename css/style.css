@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+h1,h2,h3,h4,h5,a,span,p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.part1{
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px;
+	line-height: 50px;
+    }
+a{
+	text-decoration: none;
+	color: #263e71;
+
+}
+.header{
+	padding: 16px 0px;
+	border-bottom: 1px solid skyblue;
+}
+.banner-text{
+	text-align: center;
+	padding: 56px;
+
+}
+.banner-text h1{
+	font-size: 50px;
+	color: #0f2656;
+	padding-bottom: 16px;
+}
+.banner-text h1 span{
+	color: #008aff;
+	}
+.banner-text p{
+	font-size: 16px;
+	padding-bottom: 16px;
+	color: #5c267c;
+}
+.banner-text img {
+	padding-bottom: 50px;
+}
+/*practice*/
+.left h3{
+	color:#f15767;
+	font-size: 40px;
+	font-weight: 700;
+}
+.left p{
+	font-size: 16px;
+	font-weight: 300;
+
+}
+.project h3 p{
+text-align:right;
+}
+
+
+.right h4{
+	color: #0f2656;
+	font-size: 40px;
+
+}
+.project{
+	padding: 80px,0;
+
+}
+.project-1{
+	display: flex;
+}
+.left{
+	text-align: right;
+	flex-basis: 70%;
+	margin-right: 20px;
+}
+.right{
+	flex-basis: 30%;
+}
+.img{
+	display: flex;
+	padding: 50px 0px;
+	justify-content: space-evenly;
+}
+
+.last{
+	background-color: #008aff;
+	padding: 40px 0 40px 0;
+	text-align: center;
+	color: white;
+
+}
+
